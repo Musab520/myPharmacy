@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        xmlns:tools="http://schemas.android.com/tools"
         tools:context=".ui.medReminder.CreateReminderActivity"
         android:orientation="vertical"
         android:background="@drawable/med_background"
@@ -13,7 +13,6 @@
             android:layout_marginTop="100dp"
             android:layout_marginRight="10dp"
             android:layout_marginLeft="10dp"
-
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -30,7 +29,7 @@
 
         <!-- Drug from spinner -->
         <TextView
-                android:text="Select Drug"
+                android:text="@string/select_drug"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="18sp"
@@ -45,7 +44,7 @@
                 android:minHeight="48dp"/>
         <!-- Dosage -->
         <TextView
-                android:text="Dosage (optional)"
+                android:text="@string/dosage_optional"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
@@ -56,13 +55,13 @@
                 android:id="@+id/edit_text_dosage"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Enter dosage"
+                android:hint="@string/enter_dosage"
                 android:minHeight="48dp"
                 android:inputType="number"/>
 
         <!-- Frequency per day -->
         <TextView
-                android:text="Frequency per day"
+                android:text="@string/frequency_per_day"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
@@ -78,28 +77,28 @@
 
             <RadioButton
                     android:id="@+id/radio_button_once"
-                    android:text="Once"
+                    android:text="@string/once"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/black"/>
 
             <RadioButton
                     android:id="@+id/radio_button_twice"
-                    android:text="Twice"
+                    android:text="@string/twice"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/black"/>
 
             <RadioButton
                     android:id="@+id/radio_button_thrice"
-                    android:text="Three times"
+                    android:text="@string/three_times"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/black"/>
         </RadioGroup>
         <!-- Time of Reminder -->
         <TextView
-                android:text="Time of Reminder"
+                android:text="@string/time_of_reminder"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
@@ -151,7 +150,7 @@
         <!-- Create Drug Button -->
         <Button
                 android:id="@+id/button_create"
-                android:text="Create Drug"
+                android:text="@string/create_reminder"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"

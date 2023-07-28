@@ -132,7 +132,7 @@
     </string-array>
     <string name="startDate">Please enter the start date:</string>
     <string name="endDate">Please enter the end date:</string>
-    <string name="menstruarionHeader">Please enter the start date and end date of your latest menstruation.</string>
+    <string name="menstruationHeader">Please enter the start date and end date of your latest menstruation.</string>
     <string name="MenstrualLegend">Red : Menstrual Phase\nGray : Next Expected Menstruation\nBlue : Luteal Phase\nGreen : Follicular Phase\nPink : Ovulation Phase</string>
     <string name="choose_a_manufacturer">Choose a Manufacturer</string>
     <string name="choose_a_category">Choose a Category</string>

@@ -10,7 +10,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
-            android:hint="Enter your name"/>
+            android:inputType="textPersonName"
+            android:autofillHints="name"
+            android:hint="@string/enter_your_name"/>
 
     <TextView
             android:id="@+id/nameLabel"
@@ -27,5 +29,5 @@
             android:layout_below="@id/nameLabel"
             android:layout_centerHorizontal="true"
             android:layout_margin="16dp"
-            android:text="Save"/>
+            android:text="@string/save"/>
 </RelativeLayout>

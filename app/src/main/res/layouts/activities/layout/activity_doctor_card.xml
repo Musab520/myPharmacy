@@ -21,7 +21,7 @@
                 android:id="@+id/doctor_name_label"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Name:"
+                android:text="@string/doc_card_name"
                 android:textSize="16sp"
                 android:textStyle="bold"/>
 
@@ -36,7 +36,7 @@
                 android:id="@+id/doctor_specialty_label"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Specialty:"
+                android:text="@string/doc_card_specialty"
                 android:textSize="16sp"
                 android:textStyle="bold"/>
 
@@ -50,7 +50,7 @@
                 android:id="@+id/doctor_phone_label"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Phone:"
+                android:text="@string/doc_card_phone"
                 android:textSize="16sp"
                 android:textStyle="bold"/>
 
@@ -64,7 +64,7 @@
                 android:id="@+id/doctor_email_label"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Email:"
+                android:text="@string/doc_card_email"
                 android:textSize="16sp"
                 android:textStyle="bold"/>
 
@@ -78,7 +78,7 @@
                 android:id="@+id/doctor_clinical_address_label"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Clinical Address:"
+                android:text="@string/doc_card_clinical_address"
                 android:textSize="16sp"
                 android:textStyle="bold"/>
 

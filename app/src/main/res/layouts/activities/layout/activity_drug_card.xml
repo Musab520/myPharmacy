@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-                                   xmlns:app="http://schemas.android.com/apk/res-auto"
-                                   android:layout_width="match_parent"
-                                   android:layout_height="wrap_content"
-                                   android:layout_margin="8dp"
-                                   app:cardCornerRadius="8dp"
-                                   app:cardElevation="4dp">
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp">
 
     <LinearLayout
             android:layout_width="match_parent"
@@ -17,50 +18,50 @@
                 android:id="@+id/nameTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Drug Name"
+                android:text="@string/drug_card_drug_name"
                 android:textColor="@color/black"
                 android:textSize="20sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"/>
 
         <TextView
                 android:id="@+id/categoryTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Category"
+                android:text="@string/drug_card_category"
                 android:textColor="@color/gray"
-                android:textSize="16sp" />
+                android:textSize="16sp"/>
 
         <TextView
                 android:id="@+id/typeTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Type"
+                android:text="@string/drug_card_type"
                 android:textColor="@color/gray"
-                android:textSize="16sp" />
+                android:textSize="16sp"/>
 
         <TextView
                 android:id="@+id/manufacturerTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Manufacturer"
+                android:text="@string/drug_card_manufacturer"
                 android:textColor="@color/gray"
-                android:textSize="16sp" />
+                android:textSize="16sp"/>
 
         <TextView
                 android:id="@+id/descriptionTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Description"
+                android:text="@string/drug_card_description"
                 android:textColor="@color/gray"
-                android:textSize="16sp" />
+                android:textSize="16sp"/>
 
         <TextView
                 android:id="@+id/expiryDateTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Expiry Date"
+                android:text="@string/drug_card_expiry_date"
                 android:textColor="@color/gray"
-                android:textSize="16sp" />
+                android:textSize="16sp"/>
 
     </LinearLayout>
 

@@ -1,78 +1,80 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/med_background">
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/med_background">
 
     <!-- Center the white rectangle input form -->
     <LinearLayout
-        android:layout_width="319dp"
-        android:layout_height="320dp"
-        android:layout_centerInParent="true"
-        android:layout_gravity="center"
-        android:layout_marginStart="32dp"
-        android:layout_marginEnd="32dp"
-        android:background="@drawable/rounded_rectangle"
-        android:clipToPadding="false"
-        android:elevation="8dp"
-        android:orientation="vertical"
-        android:outlineProvider="background"
-        android:padding="16dp"> <!-- Set the orientation to vertical -->
+            android:layout_width="319dp"
+            android:layout_height="320dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/rounded_rectangle"
+            android:clipToPadding="false"
+            android:elevation="8dp"
+            android:orientation="vertical"
+            android:outlineProvider="background"
+            android:padding="16dp"> <!-- Set the orientation to vertical -->
 
         <!-- Add your input form elements here -->
 
         <TextView
-            android:id="@+id/intro_view"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:shadowColor="#000000"
-            android:shadowDx="2"
-            android:shadowDy="2"
-            android:shadowRadius="2"
-            android:text="@string/menstruarionHeader"
-            android:textColor="@color/myPharmacy_main_color"
-            android:textSize="18sp"
-            android:textStyle="bold" />
+                android:id="@+id/intro_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:shadowColor="#000000"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="2"
+                android:text="@string/menstruationHeader"
+                android:textColor="@color/myPharmacy_main_color"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
 
         <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="@string/startDate"
-            android:textColor="@color/black" />
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/startDate"
+                android:textColor="@color/black"/>
 
         <EditText
-            android:id="@+id/menstrual_start_date_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:focusable="false"
-            android:hint="@string/select_a_date" />
+                android:id="@+id/menstrual_start_date_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:inputType="date"
+                android:hint="@string/select_a_date"/>
 
         <TextView
-            android:id="@+id/textView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="@string/endDate"
-            android:textColor="@color/black" />
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/endDate"
+                android:textColor="@color/black"/>
 
         <EditText
-            android:id="@+id/menstrual_end_date_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:focusable="false"
-            android:hint="@string/select_a_date" />
+                android:id="@+id/menstrual_end_date_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:inputType="date"
+                android:hint="@string/select_a_date"/>
 
         <Button
-            android:id="@+id/menstrual_save_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="end"
-            android:layout_marginTop="16dp"
-            android:backgroundTint="@color/myPharmacy_main_color"
-            android:text="@string/save"
-            android:textColor="@color/white" />
+                android:id="@+id/menstrual_save_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="@color/myPharmacy_main_color"
+                android:text="@string/save"
+                android:textColor="@color/white"/>
 
 
     </LinearLayout>

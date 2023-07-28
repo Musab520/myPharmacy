@@ -37,7 +37,7 @@ public class CreateDrugActivity extends AppCompatActivity {
         manufacturerTextView = findViewById(R.id.manufacturer);
         categoryTextView = findViewById(R.id.category);
         typeTextView = findViewById(R.id.type);
-        expiryDateEditText = findViewById(R.id.expiryDateEditTexxt);
+        expiryDateEditText = findViewById(R.id.expiryDateEditText);
         expiryDateEditText.setOnClickListener(e -> {
             final Calendar c = Calendar.getInstance();
             int mYear = c.get(Calendar.YEAR); // current year

@@ -1,64 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/med_background">
-<LinearLayout android:layout_marginTop="100dp"
-    android:layout_marginRight="10dp"
-    android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/med_background">
 
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:padding="16dp"
-    android:outlineProvider="background"
-    android:background="@drawable/rounded_rectangle">
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        style="@style/title"
-        android:text="@string/doctor_form_title"
-        />
-    <EditText
-            android:id="@+id/nameEditText"
+    <LinearLayout
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Name"/>
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:outlineProvider="background"
+            android:background="@drawable/rounded_rectangle">
 
-    <EditText
-        android:layout_marginTop="20dp"
-            android:id="@+id/specialtyEditText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Specialty"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/title"
+                android:text="@string/doctor_form_title"
+                />
 
-    <EditText
-        android:layout_marginTop="20dp"
-            android:id="@+id/phoneEditText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Phone"/>
+        <EditText
+                android:id="@+id/nameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="@string/doctor_form_name_hint"/>
 
-    <EditText
-        android:layout_marginTop="20dp"
-            android:id="@+id/emailEditText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Email"/>
+        <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/specialtyEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="@string/doctor_form_specialty_hint"/>
 
-    <EditText
-        android:layout_marginTop="20dp"
-            android:id="@+id/clinicalAddressEditText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Clinical Address"/>
+        <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/phoneEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:hint="@string/doctor_form_phone_hint"/>
 
-    <Button
-        android:layout_marginTop="20dp"
-            android:id="@+id/createDoctorButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Create Doctor"/>
+        <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/emailEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="@string/doctor_form_email_hint"/>
 
-</LinearLayout>
+        <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/clinicalAddressEditText"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/doctor_form_clinical_address_hint"/>
+
+        <Button
+                android:layout_marginTop="20dp"
+                android:id="@+id/createDoctorButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/doctor_form_create_doctor"/>
+
+    </LinearLayout>
 </ScrollView>

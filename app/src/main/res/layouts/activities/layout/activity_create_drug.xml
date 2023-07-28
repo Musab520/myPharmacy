@@ -1,119 +1,124 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/med_background">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/med_background">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-
-        android:layout_marginTop="100dp"
-        android:layout_marginRight="10dp"
-        android:background="@drawable/rounded_rectangle"
-        android:orientation="vertical"
-        android:outlineProvider="background"
-        android:padding="16dp">
-
-        <TextView
-            style="@style/title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/drug_form_title" />
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/rounded_rectangle"
+            android:orientation="vertical"
+            android:outlineProvider="background"
+            android:padding="16dp">
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text="@string/name"
-            android:textColor="@color/black"
-            android:textSize="16sp" />
+                style="@style/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/drug_form_title"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/name"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
 
         <EditText
-            android:id="@+id/edit_text_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+                android:id="@+id/edit_text_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="@string/drug_form_name_hint"/>
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/description"
-            android:textColor="@color/black"
-            android:textSize="16sp" />
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/description"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
 
         <EditText
-            android:id="@+id/edit_text_description"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+                android:id="@+id/edit_text_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="@string/drug_form_description_hint"/>
 
         <TextView
-            android:id="@+id/manufacturer"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text="@string/manufacturer"
-            android:textColor="@color/black"
-            android:textSize="16sp" />
+                android:id="@+id/manufacturer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/manufacturer"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
 
         <Spinner
-            android:id="@+id/manufacturer_spinner"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:entries="@array/manufacturers_array"
-            android:hint="@string/choose_a_manufacturer" />
+                android:id="@+id/manufacturer_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/manufacturers_array"
+                android:hint="@string/choose_a_manufacturer"/>
 
         <TextView
-            android:id="@+id/category"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text="@string/category"
-            android:textColor="@color/black"
-            android:textSize="16sp" />
+                android:id="@+id/category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/category"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
 
         <Spinner
-            android:id="@+id/category_spinner"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:entries="@array/categories_array"
-            android:hint="@string/choose_a_category" />
+                android:id="@+id/category_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/categories_array"
+                android:hint="@string/choose_a_category"/>
 
         <TextView
-            android:id="@+id/type"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text="@string/type"
-            android:textColor="@color/black"
-            android:textSize="16sp" />
+                android:id="@+id/type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/type"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
 
         <Spinner
-            android:id="@+id/types_spinner"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:entries="@array/types_array"
-            android:hint="@string/choose_a_drug_type" />
+                android:id="@+id/types_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/types_array"
+                android:hint="@string/choose_a_drug_type"/>
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text="@string/expiry_date"
-            android:textColor="@color/black"
-            android:textSize="16sp" />
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/expiry_date"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
 
         <EditText
-            android:id="@+id/expiryDateEditTexxt"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+                android:id="@+id/expiryDateEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:focusable="false"/>
 
         <Button
-            android:id="@+id/button_create"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="@string/create_drug" />
+                android:id="@+id/button_create"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/create_drug"/>
 
     </LinearLayout>
 </ScrollView>

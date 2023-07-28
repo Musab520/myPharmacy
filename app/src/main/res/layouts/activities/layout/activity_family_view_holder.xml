@@ -19,7 +19,7 @@
                 android:id="@+id/family_member_name_label"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Name:"
+                android:text="@string/family_card_name"
                 android:textSize="16sp"
                 android:textStyle="bold"/>
 
@@ -34,7 +34,7 @@
                 android:id="@+id/family_member_role_label"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Family Role:"
+                android:text="@string/family_card_family_role"
                 android:textSize="16sp"
                 android:textStyle="bold"/>
 
@@ -48,7 +48,7 @@
                 android:id="@+id/family_member_phone_label"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Phone:"
+                android:text="@string/family_card_phone"
                 android:textSize="16sp"
                 android:textStyle="bold"/>
 
@@ -62,7 +62,7 @@
                 android:id="@+id/family_member_email_label"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Email:"
+                android:text="@string/family_card_email"
                 android:textSize="16sp"
                 android:textStyle="bold"/>
 
