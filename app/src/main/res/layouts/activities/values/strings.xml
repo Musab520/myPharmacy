@@ -73,4 +73,5 @@
     <string name="med_record_email">Email</string>
     <string name="med_record_clinical_address">Clinical Address</string>
     <string name="previous_menstruations">Previous Menstruations</string>
+    <string name="diagnosis">Diagnosis:</string>
 </resources>

@@ -86,7 +86,7 @@
 
             <TextView
                     android:id="@+id/diagnosis_label"
-                    android:text="Diagnosis:"
+                    android:text="@string/diagnosis"
                     android:textColor="@color/myPharmacy_main_color"
                     android:textSize="20sp"
                     android:textStyle="bold"
